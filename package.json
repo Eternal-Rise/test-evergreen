@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "bash deploy.sh && gh-pages -d dist",
     "lint": "vue-cli-service lint",
     "lintfix": "vue-cli-service lint --fix",
     "serve": "vue-cli-service serve"
