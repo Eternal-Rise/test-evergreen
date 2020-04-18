@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint",
-    "lintfix": "vue-cli-service lint --fix"
+    "lintfix": "vue-cli-service lint --fix",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
     "@types/bootstrap": "^4.3.2",
     "axios": "^0.19.2",
     "bootstrap-vue": "^2.11.0",
     "core-js": "^3.6.4",
+    "gh-pages": "^2.2.0",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
     "vue-class-component": "^7.2.3",
